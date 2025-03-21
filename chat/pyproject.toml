@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chat"
+version = "0.1.0"
+description = ""
+authors = ["cneill <cneill@indeed.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+dotenv = "^0.9.9"
+openai = "^1.68.0"
+lancedb = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
